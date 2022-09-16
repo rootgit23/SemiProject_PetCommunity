@@ -6,6 +6,7 @@
 	<typeAliases>
 		<typeAlias type="com.pet.home.board.notice.NoticeDTO" alias="NoticeDTO"/>
 		<typeAlias type="com.pet.home.board.impl.BoardDTO" alias="BoardDTO"/>
+		<typeAlias type="com.pet.home.sell.SellItemDTO" alias="SellItemDTO"/>
 	</typeAliases>
 
 </configuration>

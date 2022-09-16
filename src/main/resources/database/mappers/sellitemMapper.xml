@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+		    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+		    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+   <mapper namespace="com.pet.home.sell.SellItemDAO">
+    <insert id="setItemAdd" parameterType="SellItemDTO">
+      INSERT INTO SELLITEM VALUES 
+      (5, #{userId},2, #{itemName}, #{itemPrice}, #{itemContents}, SYSDATE, SYSDATE , to_date(#{itemEndDate},'yyyy/mm/dd'), #{itemLatitude}, #{itemLongtitude}, #{itemCount}, #{itemCatg})
+    </insert>
+    </mapper>
